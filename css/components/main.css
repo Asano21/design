@@ -1,0 +1,75 @@
+.first {
+    width:  90%;
+    margin: 0 auto;
+}
+
+.first-wrapper {
+    margin-top: 270px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-wrapper > div:first-child {
+    text-align: center;
+}
+
+.first-wrapper > div > h1:first-child {
+    font-size: 60px;
+    color: turquoise;
+}
+
+.first-wrapper > div > h1:last-child {
+    font-size: 27px;
+    color: rgba(32, 32, 32, 0.856);
+    font-weight: 800;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+
+.hr2 {
+    color: grey;
+    width: 10%;
+}
+
+.block-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+    height: 300px;
+    transition: .5s;
+}
+
+.block:hover {
+    box-shadow:0 0 10px rgba(100, 100, 100, 0.5);
+}
+
+.fas, .fab, .far {
+    color: grey;
+    font-size: 35px;
+}
+
+.block > h2 {
+    color: rgba(110, 110, 110, 0.822);
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+
+.blhr {
+    width: 60%;
+    color: grey;
+    margin: 15px 0;
+}
+

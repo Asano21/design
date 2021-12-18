@@ -1,0 +1,157 @@
+
+.imagebg {
+    width: 100%;
+    position: absolute;
+    top: -140px;
+    z-index: -1;
+    height: 709px;
+}
+
+.header-fixed{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1020;
+    background-color: grey;
+    box-shadow: black;
+    min-height: 30px; 
+    /* width: 80%; */
+    padding: 0 30px;
+}
+
+/* .header-fixed:hover {
+
+    background-color: grey; */
+
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 80px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.logo > h2 > a {
+    color: turquoise;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 900;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 8px; */
+    margin-right: 10px;
+    height: 80px;
+}
+
+.menu-list > a {
+    color: snow;
+    font-size: 14px;
+    text-decoration: none;
+    /* letter-spacing: -1px; */
+    font-weight: 500;
+    margin-left: 30px;
+    transition: .5s;
+}
+.menu-list > a:hover {
+    color: turquoise;
+}
+
+.center-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.name1 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.name1 > h3 {
+    color: snow;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: .5px;
+}
+
+.name1 > h3:first-child, .name1 > h3:nth-child(2) {
+    margin-right: 10px;
+}
+
+.name1 > h3:first-child::after, .name1 > h3:nth-child(2)::after {
+    content: "/";
+    color: snow;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.name2 {
+    color: snow;
+    font-size: 21px;
+    margin-top: 10px;
+}
+
+.hr1 {
+    width: 20%;
+    color: snow;
+    height: .5%;
+    position: relative;
+    top: 18px;
+}
+
+.name3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:80px;
+}
+
+.name3 > a:first-child {
+    background-color: turquoise;
+    color: snow;
+    margin: 0 10px;
+    width: 190px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.name3 > a:first-child:hover {
+    background: none;
+    border: solid 5px white
+}
+
+.name3 > a:last-child {
+    color: snow;
+    margin: 0 10px;
+    border: solid white 5px;
+    width: 190px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.name3 > a:last-child:hover {
+    background-color: turquoise;
+    border: none;
+}
