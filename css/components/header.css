@@ -7,6 +7,8 @@
     top: -140px;
     z-index: -1;
     height: 709px;
+    max-width: none;
+    max-width: none;
 }
 
 .header-fixed{
@@ -196,9 +198,9 @@
     }
     .menu-list > i {
         display: flex;
-        font-size: 30px;
-        color: snow;
-        transition: all .3s;
+        font-size: 25px;
+        color: turquoise;
+        transition: none;
     }
 
     .menu-list > i:hover{

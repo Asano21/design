@@ -334,7 +334,7 @@ li > a {
 
     .bgimg > h4 {
         color: turquoise;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 900;
         margin: 10px 0 25px;
     }
@@ -379,7 +379,7 @@ li > a {
     }
 
     .image-wrapper > div {
-        max-width: 300px;
+        max-width: 350px;
         position: relative;
         margin: 10px 10px;
     }
@@ -392,11 +392,17 @@ li > a {
     
     }
 
+    .bgimg > h2 {
+        font-size: 30px;
+        font-weight: 600;  
+        margin-top: 30px;  
+    }
+
     .bgimg > h4 {
         color: turquoise;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 900;
-        margin: 25px 0 50px;
+        margin: 25px 0 80px;
     }
     
     .bgimg > hr {
@@ -405,7 +411,7 @@ li > a {
     }
     
     .bgimg > ul {
-        margin-top: 60px;
+        margin-top: 90px;
         color: white;
     }
     
@@ -421,7 +427,7 @@ li > a {
     }
     
     .fab {
-        font-size: 30px;
+        font-size: 35px;
         color: white;
         transition: all .4s;
     }
